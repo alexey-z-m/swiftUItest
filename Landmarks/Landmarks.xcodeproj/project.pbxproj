@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2F24BA28C9CD610043E253 /* StateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F24B928C9CD610043E253 /* StateBinding.swift */; };
 		BADD535228BCB9CD0084419D /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD535128BCB9CD0084419D /* LandmarksApp.swift */; };
 		BADD535428BCB9CD0084419D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD535328BCB9CD0084419D /* ContentView.swift */; };
 		BADD535628BCB9CE0084419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADD535528BCB9CE0084419D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA2F24B928C9CD610043E253 /* StateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBinding.swift; sourceTree = "<group>"; };
 		BADD534E28BCB9CD0084419D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADD535128BCB9CD0084419D /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		BADD535328BCB9CD0084419D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				BADD535728BCB9CE0084419D /* Preview Content */,
 				BADD536128BCBCF30084419D /* CircleImage.swift */,
 				BADD536328BCBD8E0084419D /* MapView.swift */,
+				BA2F24B928C9CD610043E253 /* StateBinding.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				BADD535428BCB9CD0084419D /* ContentView.swift in Sources */,
 				BADD536428BCBD8E0084419D /* MapView.swift in Sources */,
+				BA2F24BA28C9CD610043E253 /* StateBinding.swift in Sources */,
 				BADD535228BCB9CD0084419D /* LandmarksApp.swift in Sources */,
 				BADD536228BCBCF30084419D /* CircleImage.swift in Sources */,
 			);

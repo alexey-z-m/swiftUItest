@@ -7,7 +7,7 @@ struct StateBinding: View {
         VStack(spacing: 20){
             Text(myTitle)
             Button("Press Me!") {
-                myTitle = "Button was pressed"
+                myTitle = "Button #1 was pressed"
             }
             Button {
                 myTitle = "button #2 was pressed"
@@ -24,7 +24,7 @@ struct StateBinding: View {
                     )
             }
             Button {
-                myTitle = "button HEART was pressed"
+                myTitle = "button #3 was pressed"
             } label: {
                 Image(systemName: "heart.fill")
                     .font(.system(size: 30))
@@ -38,7 +38,7 @@ struct StateBinding: View {
                     )
             }
             Button {
-                myTitle = "button Finish was pressed"
+                myTitle = "button #4 was pressed"
             } label: {
                 Text("Finish".uppercased())
                     .foregroundColor(.gray)
